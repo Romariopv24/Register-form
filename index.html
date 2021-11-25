@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--CSS-->
+   <link rel="stylesheet" href="style.css">
+  
+   <!--BOX ICON-->
+   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Registro</title>
+   
+</head>
+<body>
+
+
+    <div class="contenedor-registro">
+        <!--INGRESAR-->
+
+        <form action="" class="login-registro" id="login-in">
+            <h1 class="login-titulo">Ingresar</h1>
+        
+
+        <div class="login-caja">
+            <i class='bx bx-user login-icono'></i>
+            <input type="text" placeholder="Ingresar Usuario"  class="login-insertar" >
+        </div>
+
+        <div class="login-caja">
+            <i class='bx bx-lock-alt login-icono'></i>
+            <input type="password" placeholder="Ingresar Constraseña" class="login-insertar" >
+        </div>
+
+        <a href="#" class="login-olvido">Olvido la constraseña?</a>
+
+       
+        <input type="button" value="Ingresar" class="login-botton">
+    
+       <!--  <a href="#" class="login-botton"></a>-->
+
+
+       <div class="login-cuenta-contenedor">
+        <span class="login-cuenta">No tienes una cuenta?</span>
+        <span class="login-crear" id="sign-up">Crear una</span>
+        </div>
+
+        <div class="login-social">
+            <a href="#" class="login-social-icono"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="login-social-icono"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="login-social-icono"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </form>
+
+
+    <!--REGISTRARSE-->
+    <form action="" class="login-registro none" id="login-up">
+        <h2 class="login-titulo">Registro</h1>
+    
+
+    <div class="login-caja">
+        <i class='bx bx-user login-icono'></i>
+        <i class='bx bx-check check-icon' ></i>
+        <i class='bx bx-error-circle error-icon' ></i>
+        <input type="text" placeholder="Ingresar Usuario"  class="login-insertar" id="username">
+      
+    </div>
+
+    
+    <small class="error-msg">Error message</small>
+
+    <div class="login-caja">
+        <i class='bx bx-at login-icono'></i>
+        <i class='bx bx-check check-icon' ></i>
+        <i class='bx bx-error-circle error-icon' ></i>
+        <input type="text" placeholder="Correo Electronico"  class="login-insertar" id="email">
+
+        
+    </div>
+    
+    <small class="error-msg">Error message</small>
+
+    <div class="login-caja">
+        <i class='bx bx-lock-alt login-icono'></i>
+        <i class='bx bx-check check-icon' ></i>
+        <i class='bx bx-error-circle error-icon' ></i>
+        <input type="password" placeholder="Ingresar Constraseña" class="login-insertar" id="password" >
+        
+    </div>
+   
+    <small class="error-msg">Error message</small>
+
+    <div class="login-caja">
+        <i class='bx bx-lock-alt login-icono'></i>
+        <i class='bx bx-check check-icon' ></i>
+        <i class='bx bx-error-circle error-icon' ></i>
+        <input type="password" placeholder="Repetir Constraseña" class="login-insertar" id="password2" >
+        
+    </div>
+   
+    <small class="error-msg">Error message</small>
+
+    <input type="button" value="Crear Nueva Cuenta" class="login-botton">
+
+   <!--  <a href="#" class="login-botton"></a>-->
+
+
+   <div class="login-cuenta-contenedor">
+    <span class="login-cuenta">Tienes una cuenta registrada?</span>
+    <span class="login-ingresar" id="sign-in">Ingresa aqui</span>
+    </div>
+    
+
+    
+</form>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
