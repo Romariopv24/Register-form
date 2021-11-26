@@ -81,6 +81,7 @@ a {
     border: none;
     outline: none;
     height: 40px;
+    width: 170px;
     font-size: var(--normal-font-size);
     font-weight: 700;
     color: var(--first-color-dark);
@@ -159,22 +160,20 @@ a {
 }
 
 .check-icon {
-    padding-left: 5px;
+    padding-left: 192px;
     padding-top: 8px;
     font-size: 1.5rem;
     color: #2ecc71;
     position: absolute;
-    right: 35%;
     visibility: visible;
 }
 
 .error-icon {
-    padding-left: 5px;
+    padding-left: 192px;
     padding-top: 8px;
     font-size: 1.5rem;
     color: #e74c3c;
     position: absolute;
-    right: 35%;
     visibility: visible;
 }
 
@@ -202,3 +201,41 @@ a {
 }
 
 
+@media only screen and (min-width: 375px) {
+    .check-icon {
+        padding-left: 221px;
+        padding-top: 8px;
+        font-size: 1.5rem;
+        color: #2ecc71;
+        position: absolute;
+        visibility: visible;
+    }
+    
+    .error-icon {
+        padding-left: 221px;
+        padding-top: 8px;
+        font-size: 1.5rem;
+        color: #e74c3c;
+        position: absolute;
+        visibility: visible;
+    }
+    }
+@media only screen and (min-width: 425px) {
+    .check-icon {
+        padding-left: 242px;
+        padding-top: 8px;
+        font-size: 1.5rem;
+        color: #2ecc71;
+        position: absolute;
+        visibility: visible;
+    }
+
+    .error-icon {
+        padding-left: 242px;
+        padding-top: 8px;
+        font-size: 1.5rem;
+        color: #e74c3c;
+        position: absolute;
+        visibility: visible;
+    }
+}
