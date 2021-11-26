@@ -31,7 +31,4 @@ const loginIn = document.getElementById('login-in'),
 
 
     //Validar formulario
-    loginIn.addEventListener('submit', e => {
-        e.preventDefault();
-        checkInputs();
-    })
+  
