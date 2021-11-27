@@ -28,7 +28,3 @@ const loginIn = document.getElementById('login-in'),
         loginIn.classList.toggle('block');
         loginUp.classList.toggle('none');
     })
-
-
-    //Validar formulario
-    loginIn.addEventListener() 
