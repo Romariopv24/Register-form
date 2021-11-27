@@ -46,6 +46,7 @@ a {
 }
 
 .login-registro {
+    position: absolute;
     max-width: 320px;
     background-color: var(--first-color-lighte);
     margin-left: calc(50% - 120px);
@@ -159,3 +160,15 @@ a {
     display: none;
 }
 
+@media only screen and (min-width: 1024px) {
+    .login-registro {
+        position: absolute;
+        max-width: 320px;
+        background-color: var(--first-color-lighte);
+        margin-left: calc(50% - 120px);
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(35, 0, 77, .2); 
+    }
+}

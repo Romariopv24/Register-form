@@ -1,11 +1,8 @@
 const loginIn = document.getElementById('login-in'),
       loginUp = document.getElementById('login-up'),
       signUp = document.getElementById('sign-up'),
-      signIn = document.getElementById('sign-in'),
-      usuario = document.getElementById('username'),
-      email = document.getElementById('email'),
-      password = document.getElementById('password');
-
+      signIn = document.getElementById('sign-in')
+      
   
     signUp.addEventListener('click' , () => {
 
