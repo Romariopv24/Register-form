@@ -7,3 +7,5 @@ Its the only action that it does, not registration action on for users.
 
 Proyecto formulario de registro, si presionas click en "Crear una cuenta", podras acceder la otra parte del registro que contiene 'usuario', 'email' y 'constraseñas'. :)
 Es la unica accion que realiza, no se registra ningun usuario.
+
+https://romariopv24.github.io/Register-form/
